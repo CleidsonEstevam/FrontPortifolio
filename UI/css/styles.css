@@ -7812,7 +7812,7 @@ background-color: #000000
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #5D478B !important;
+  background-color: #020e1a !important;
 }
 
 .bg-secondary {
@@ -11434,7 +11434,7 @@ html {
   color: #6c757d;
 }
 
-.masthead {
+.masthead { 
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
@@ -11446,9 +11446,14 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 13rem;
+  transition: all 0.5s;
+  cursor: pointer;
 }
-
+.masthead .masthead-avatar:hover{
+  -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
@@ -11476,7 +11481,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(93 71 139 / 78%);
+  background-color: rgb(2 14 26 / 87%);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
